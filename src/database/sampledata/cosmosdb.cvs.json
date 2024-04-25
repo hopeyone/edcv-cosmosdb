@@ -1,0 +1,40 @@
+{
+    "id": "1",
+    "title": "Sample CV List",
+    "cvs": [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "position": "Software Engineer",
+        "overview": "Experienced software engineer...",
+        "capabilities": ["JavaScript", "React", "Node.js"],
+        "qualifications": ["BSc in Computer Science"],
+        "certifications": ["AWS Certified Developer"],
+        "experience": [
+          {
+            "id": "1",
+            "company": "Company A",
+            "position": "Software Engineer",
+            "location": "City A",
+            "startDate": "2018-01-01",
+            "endDate": "2020-12-31",
+            "overview": "Worked as a software engineer...",
+            "keyResponsibilities": ["Developed web applications", "Maintained databases"],
+            "keyAchievements": ["Improved application performance by 20%"]
+          }
+        ],
+        "education": [
+          {
+            "id": "1",
+            "institution": "University A",
+            "degree": "BSc",
+            "major": "Computer Science",
+            "startDate": "2014-09-01",
+            "endDate": "2018-06-30",
+            "location": "City B",
+            "overview": "Studied computer science..."
+          }
+        ]
+      }
+    ]
+  }

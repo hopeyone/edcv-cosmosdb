@@ -10,6 +10,40 @@ export const GET_LISTS = gql`
           title,
           status
         }
-      }  
+      } 
+    CVLists {
+        id,
+        title
+        cvs {
+          id,
+          name,
+          position,
+          overview,
+          capabilities,
+          qualifications,
+          certifications,
+          experience {
+            id,
+            company,
+            position,
+            location,
+            startDate,
+            endDate,
+            overview,
+            keyResponsibilities,
+            keyAchievements
+          },
+          education {
+            id,
+            institution,
+            degree,
+            major,
+            startDate,
+            endDate,
+            location,
+            overview
+          }
+        }
+      }
   }
 `;
